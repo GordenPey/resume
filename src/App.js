@@ -74,7 +74,7 @@ export default function ResumeWebsite() {
         The bg-white is a placeholder for the area where your image will be.
         It's crucial for visually isolating the image from the gradient. */}
             <img
-              src="/my-photo.jpeg"
+              src="./my-photo.jpeg"
               alt="Gorden's portrait"
               className="w-full h-full object-cover rounded-full"
             />
