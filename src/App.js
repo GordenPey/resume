@@ -142,7 +142,7 @@ export default function ResumeWebsite() {
           {/* Right - Image */}
           <div className="flex-1 flex justify-center">
             <img
-              src="/about-photo.jpeg"
+              src={`${process.env.PUBLIC_URL}/about-photo.jpeg`}
               alt="Portrait"
               className="w-64 h-78 object-cover rounded-2xl shadow-2xl border-4 border-emerald-400"
             />
@@ -201,7 +201,7 @@ export default function ResumeWebsite() {
                 {Array.from({ length: 18 }, (_, i) => (
                   <img
                     key={i}
-                    src={`/images/tc${i + 1}.png`}
+                    src={`${process.env.PUBLIC_URL}/images/tc${i + 1}.png`}
                     alt={`TutorConnect screenshot ${i + 1}`}
                     className="h-40 rounded-lg shadow-md hover:scale-105 transition-transform duration-300"
                   />
@@ -250,7 +250,7 @@ export default function ResumeWebsite() {
                 {Array.from({ length: 22 }, (_, i) => (
                   <img
                     key={i}
-                    src={`/images/sc${i + 1}.png`}
+                    src={`${process.env.PUBLIC_URL}/images/sc${i + 1}.png`}
                     alt={`SilverConnect screenshot ${i + 1}`}
                     className="h-40 rounded-lg shadow-md hover:scale-105 transition-transform duration-300"
                   />
@@ -278,7 +278,7 @@ export default function ResumeWebsite() {
           <div className="flex items-center gap-6">
             {/* Image on the left */}
             <img
-              src="/psa logo.png"
+              src={`${process.env.PUBLIC_URL}/psa logo.png`}
               alt="PSA Logo"
               className="w-32 h-32 md:w-32 md:h-32 object-contain rounded-xl p-2"
             />
@@ -301,7 +301,7 @@ export default function ResumeWebsite() {
           <div className="flex items-center gap-6">
             {/* Image on the left */}
             <img
-              src="/nus.png"
+              src={`${process.env.PUBLIC_URL}/nus.png`}
               alt="NUS Logo"
               className="w-32 h-32 md:w-32 md:h-32 object-contain rounded-xl p-2"
             />
@@ -324,7 +324,7 @@ export default function ResumeWebsite() {
           <div className="flex items-center gap-6">
             {/* Image on the left */}
             <img
-              src="/nus.png"
+              src={`${process.env.PUBLIC_URL}/nus.png`}
               alt="NUS Logo"
               className="w-32 h-32 md:w-32 md:h-32 object-contain rounded-xl p-2"
             />
@@ -400,13 +400,13 @@ export default function ResumeWebsite() {
 
           {/* Image-based icons */}
           <img
-            src="/tableau.png"
+            src={`${process.env.PUBLIC_URL}/tableau.png`}
             alt="Tableau"
             title="Tableau"
             className="h-12 w-12 object-contain hover:scale-110 transition-transform"
           />
           <img
-            src="/rstudio.png"
+            src={`${process.env.PUBLIC_URL}/rstudio.png`}
             alt="RStudio"
             title="RStudio"
             className="h-12 w-12 object-contain hover:scale-110 transition-transform"
@@ -436,7 +436,7 @@ export default function ResumeWebsite() {
           <div className="flex items-center gap-6">
             {/* Image on the left */}
             <img
-              src="/sgis.png"
+              src={`${process.env.PUBLIC_URL}/sgis.png`}
               alt="SgIS Logo"
               className="w-32 h-32 md:w-32 md:h-32 object-contain rounded-xl p-2"
             />
@@ -477,7 +477,7 @@ export default function ResumeWebsite() {
             rel="noopener noreferrer"
           >
             <img
-              src="/whatsapp-icon.png"
+              src={`${process.env.PUBLIC_URL}/whatsapp-icon.png`}
               alt="Chat on WhatsApp"
               className="w-6 h-6 hover:opacity-80 hover:scale-110 transition-opacity"
             />
@@ -488,7 +488,7 @@ export default function ResumeWebsite() {
             rel="noopener noreferrer"
           >
             <img
-              src="/tele-icon.png"
+              src={`${process.env.PUBLIC_URL}/tele-icon.png`}
               alt="Chat on Telegram"
               className="w-7 h-7 hover:opacity-80 hover:scale-110 transition-opacity"
             />
